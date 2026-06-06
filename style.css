@@ -248,3 +248,32 @@ margin-bottom:20px;
 color:#EC4899;
 font-weight:600;
 }
+
+.reviews{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:25px;
+}
+
+.review-card{
+background:#141414;
+border:1px solid #242424;
+border-radius:20px;
+padding:30px;
+transition:.3s;
+}
+
+.review-card:hover{
+transform:translateY(-5px);
+border-color:#8B5CF6;
+}
+
+.review-card p{
+line-height:1.8;
+color:#d4d4d4;
+margin-bottom:15px;
+}
+
+.review-card h4{
+color:#EC4899;
+}
